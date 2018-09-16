@@ -1,0 +1,31 @@
+permissions: 
+ustaffmode.gamemode: 
+    description: Gives access to Gamemode menu
+    default: op
+ustaffmode.tools: 
+    description: Gives access to Tools menu
+    default: op
+ustaffmode.time: 
+    description: Gives access to Time menu
+    default: op
+ustaffmode.effects:
+    description: Gives access to Effects menu
+    default: op
+ustaffmode.servermanager:
+    description: Gives access to Server Manager menu
+    default: op
+ustaffmode.adminitems:
+    description: Gives access to Admin Items menu
+    default: op
+ustaffmode.difficulty:
+    description: Gives access to Difficulty menu
+    default: op
+ustaffmode.mobs: 
+    description: Gives access to Mobs menu
+    default: op
+ustaffmode.trolls:
+    description: Gives access to Troll menu
+    default: op
+ustaffmode.mobmanager: 
+    description: Gives access to Mob Manager menu
+    default: op
