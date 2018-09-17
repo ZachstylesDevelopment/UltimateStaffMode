@@ -12,8 +12,6 @@ Website: https://zachstyles.weebly.com/
 
 This Plugin Only Supports Java 8(1.8-1.12 minecraft versions)!
 
-[​IMG]
-
 Gamemode Control
 Whitelist Control
 Weather Control
@@ -25,12 +23,7 @@ Time Control Advanced
 Admin Items
 And Way More!
 
-[​IMG]
-
-Coming Soon.
-
-
-[​IMG]
+# Commands & Permissions
 
 /staffmode or /staffgui(allias:/sg)
 ustaffmode.open
@@ -55,7 +48,7 @@ Inside The Main Gui!
 
 
 
-INSTALL
+# INSTALL
 1. Download Plugin
 2. Drop Plugin In Plugins Folder
 3. Restart Server
@@ -66,7 +59,7 @@ INSTALL
 
 
 
-Default Config
+# Default Config
 
 #=================================================
 #Plugin Version: 1.0(Don't Change This Version!)
