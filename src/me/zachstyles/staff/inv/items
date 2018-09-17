@@ -1,4 +1,4 @@
-package me.zachstyles.staff.items;
+package me.zachstyles.staff.inv;
 
 import org.bukkit.entity.*;
 import org.bukkit.*;
