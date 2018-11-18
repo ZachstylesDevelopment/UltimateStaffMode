@@ -34,21 +34,6 @@ public class Main extends JavaPlugin {
 	}
 			{
 	}
-	private void registerGlow() throws IllegalArgumentException {
-		try {
-			Field f = Enchantment.class.getDeclaredField("acceptingNew");
-			f.setAccessible(true);
-			f.set(null, true);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		try {
-			Glow glow = new Glow(70);
-			Enchantment.registerEnchantment(glow);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static Main getPlugin() {
