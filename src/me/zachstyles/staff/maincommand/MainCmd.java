@@ -1,4 +1,4 @@
-package me.zachstyles.staff.maincommand;
+package me.refrac.staff.maincommand;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -6,10 +6,10 @@ import org.bukkit.command.*;
 import org.bukkit.entity.*;
 import org.bukkit.event.Listener;
 
-import me.zachstyles.staff.Main;
-import me.zachstyles.staff.inv.InvCreator;
-import me.zachstyles.staff.items.items;
-import me.zachstyles.staff.util.UpdateChecker;
+import me.refrac.staff.Main;
+import me.refrac.staff.inv.InvCreator;
+import me.refrac.staff.items.items;
+import me.refrac.staff.util.UpdateChecker;
 
 public class MainCmd implements CommandExecutor, Listener {
 	
