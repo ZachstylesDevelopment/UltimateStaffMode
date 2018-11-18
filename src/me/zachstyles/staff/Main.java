@@ -1,8 +1,8 @@
-package me.zachstyles.staff;
+package me.Refrac.staff;
 
-import me.zachstyles.staff.maincommand.MainCmd;
-import me.zachstyles.staff.menu.Event;
-import me.zachstyles.staff.util.*;
+import me.refrac.staff.maincommand.MainCmd;
+import me.refrac.staff.menu.Event;
+import me.refrac.staff.util.*;
 import org.bukkit.Bukkit;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.plugin.PluginDescriptionFile;
