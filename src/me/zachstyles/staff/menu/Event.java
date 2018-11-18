@@ -1,4 +1,4 @@
-package me.zachstyles.staff.menu;
+package me.refrac.staff.menu;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -18,9 +18,9 @@ import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
-import me.zachstyles.staff.inv.InvCreator;
-import me.zachstyles.staff.inv.InvNames;
-import me.zachstyles.staff.items.items;
+import me.refrac.staff.inv.InvCreator;
+import me.refrac.staff.inv.InvNames;
+import me.refrac.staff.items.items;
 
 public class Event implements Listener
 {
