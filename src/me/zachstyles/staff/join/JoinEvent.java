@@ -1,12 +1,12 @@
-package me.zachstyles.staff.join; 
+package me.refrac.staff.join; 
 
 import org.bukkit.event.player.*;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.*;
 import org.bukkit.event.*;
 
-import me.zachstyles.staff.Main;
-import me.zachstyles.staff.util.UpdateChecker;
+import me.refrac.staff.Main;
+import me.refrac.staff.util.UpdateChecker;
 
 public class JoinEvent implements Listener
 {
