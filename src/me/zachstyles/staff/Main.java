@@ -1,4 +1,4 @@
-package me.Refrac.staff;
+package me.refrac.staff;
 
 import me.refrac.staff.maincommand.MainCmd;
 import me.refrac.staff.menu.Event;
