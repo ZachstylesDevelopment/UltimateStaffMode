@@ -1,4 +1,4 @@
-package me.zachstyles.staff.util;
+package me.refrac.staff.util;
 
 import java.net.*;
 import java.io.*;
