@@ -1,9 +1,9 @@
-package me.zachstyles.staff.inv;
+package me.refrac.staff.inv;
 
 import org.bukkit.*;
 import org.bukkit.inventory.*;
 
-import me.zachstyles.staff.Main;
+import me.refrac.staff.Main;
 
 public class InvCreator
 {
