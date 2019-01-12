@@ -10,7 +10,7 @@ Website: https://refracdevelopment.weebly.com/
 
 This Plugin Only Supports Java 8(1.8-1.12 minecraft versions)!
 
-# Feautures
+# Features
 Gamemode Control
 Whitelist Control
 Weather Control
