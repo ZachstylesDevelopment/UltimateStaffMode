@@ -2,16 +2,15 @@ This is a Bugfree StaffMode Plugin forked from @BGHDDevelopment - The Former Aut
 
 Go Check Out BGHDDevelopment For More Awesome Plugins! :)
 
-Join The Discord For support/bugs or for updates or possible future plugins. https://discord.gg/4JaFheW
+Join The Discord For support/bugs or for updates or possible future plugins. https://discord.gg/zTeyAna
 
 You Need DeluxeMenus & ProtocolLib For This Plugin To Fully Function!
 
-
-Website: https://zachstyles.weebly.com/
-
+Website: https://refracdevelopment.weebly.com/
 
 This Plugin Only Supports Java 8(1.8-1.12 minecraft versions)!
 
+# Feautures
 Gamemode Control
 Whitelist Control
 Weather Control
