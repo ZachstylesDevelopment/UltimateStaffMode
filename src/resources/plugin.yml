@@ -1,10 +1,10 @@
-main: me.zachstyles.staff.Main
+main: me.refrac.staff.Main
 name: UltimateStaffMode
 version: 3.5.2
 depend: [ProtocolLib]
 softdepend: [DeluxeMenus]
 load: STARTUP
-authors: [Zachstyles, BGHDDevelopment(Noodles)]
+authors: [Refrac, BGHDDevelopment(Noodles)]
 Website: https://www.spigotmc.org/resources/54528/
 
 commands: 
