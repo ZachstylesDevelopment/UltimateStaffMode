@@ -1,4 +1,4 @@
-This is a Bugfree StaffMode Plugin forked from @BGHDDevelopment - The Former Author.
+This is a Bugfree(As of Version 3.5.2) StaffMode Plugin forked from @BGHDDevelopment - The Former Author.
 
 Go Check Out BGHDDevelopment For More Awesome Plugins! :)
 
