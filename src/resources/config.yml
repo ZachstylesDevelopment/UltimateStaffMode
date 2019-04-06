@@ -17,7 +17,7 @@ Messages:
   MainMenu: '&7Returned To The Main Menu!'
 #=======================================================
 #Gamemode Menu Messages  
-#Permssion: ustaffmode.gamemode
+#Permission: ustaffmode.gamemode
   GamemodeMenu: '&7Opened The Gamemodes Menu!'
   Creative: '&7Gamemode changed to Creative!' 
   Survival: '&7Gamemode changed to Survival!' 
@@ -25,7 +25,7 @@ Messages:
   Adventure: '&7Gamemode changed to Adventure!'
 #=======================================================
 #Time Menu Messages    
-#Permssion: ustaffmode.time
+#Permission: ustaffmode.time
   TimeMenu: '&7Opened The Time Menu!'  
   TimeSixAM: '&7Time Changed To &e6AM&7!'
   TimeSevenAM: '&7Time Changed To &e7AM&7!'
@@ -53,7 +53,7 @@ Messages:
   TimeFiveAM: '&7Time Changed To &e5AM&7!'
 #=======================================================
 #Tools Menu Messages 
-#Permssion: ustaffmode.tools
+#Permission: ustaffmode.tools
   ToolsMenu: '&7Opened The Tools Menu!'  
 #FlyMenu
   FlyMenu: '&7Opened The Fly Menu!'      
@@ -72,14 +72,14 @@ Messages:
   ClearInv: '&7Inventory Cleared!'
 #=======================================================
 #AdminItems Menu Messages  
-#Permssion: ustaffmode.adminitems 
+#Permission: ustaffmode.adminitems 
   AdminItemMenu: '&7Opened The Admin Items Menu!'
   AdminSword: '&7You received a &c&lADMIN &7sword!'
   AdminBow: '&7You received a &c&lADMIN &7bow!'
   AdminStick: '&7You received a &c&lADMIN &7stick!'
 #=======================================================
 #Server Manager Menu Messages  
-#Permssion: ustaffmode.servermanager
+#Permission: ustaffmode.servermanager
   ServerManagerMenu: '&7Opened The Server Manager Menu!'
   WeatherRain: '&7Weather Turned To Rain!'
   WeatherClear: '&7Weather Turned To Clear!'
@@ -87,7 +87,7 @@ Messages:
   WhitelistOFF: '&7Whitelist Turned &cOFF&7!'  
 #=======================================================
 #Effects Menu Messages    
-#Permssion: ustaffmode.effects
+#Permission: ustaffmode.effects
   EffectsMenu: '&7Opened The Effect Menu!'   
   EffectsClear: '&7Effects Cleared!'
   SpeedMenu: '&7Opened Speed Effect Menu!'
@@ -123,7 +123,7 @@ Messages:
   Slowness: '&7Slowness Applied For &cFOREVER!'
 #=======================================================
 #Mob Menu Messages    
-#Permssion: ustaffmode.mobs 
+#Permission: ustaffmode.mobs 
   MobMenu: '&7Opened The Mob Menu!'
   ExtraMobMenu: '&7Opened Extra Mob Menu!'
   SpawnCreeper: '&7Spawned Creeper!'  
@@ -160,7 +160,7 @@ Messages:
   SpawnEnderDragon: '&cSpawned EnderDragon!'
 #=======================================================
 #Difficulty Menu Messages   
-#Permssion: ustaffmode.difficulty
+#Permission: ustaffmode.difficulty
   DifficultyMenu: '&7Opened The Difficulty Menu!'
   DifficultyPeace: '&7Difficulty set to Peaceful!'
   DifficultyEasy: '&7Difficulty set to Easy!'
@@ -168,7 +168,7 @@ Messages:
   DifficultyHard: '&7Difficulty set to Hard!'
 #=======================================================
 #Troll Menu Messages 
-#Permssion: ustaffmode.trolls
+#Permission: ustaffmode.trolls
   TrollMenu: '&7Opened The Troll Menu!'
   CowTroll: '&7Spawned cow on all players!'
   CowTrollPlayer: '&cYou were hit with a flying cow!'
