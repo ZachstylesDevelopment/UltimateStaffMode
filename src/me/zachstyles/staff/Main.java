@@ -24,7 +24,6 @@ public class Main extends JavaPlugin {
 		this.saveDefaultConfig();
 		this.reloadConfig();
 		this.register();
-		this.registerGlow();
 		this.setEnabled(true);
 		getLogger().info("ULTIMATESTAFFMODE V" + VarUtilType.getVersion() + " started!");
 		this.getLogger().info("ULTIMATESTAFFMODE V" + VarUtilType.getVersion() + " checking for updates...");
