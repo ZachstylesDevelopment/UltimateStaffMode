@@ -6,7 +6,7 @@ import org.bukkit.inventory.meta.*;
 import java.util.*;
 import org.bukkit.inventory.*;
 
-public class items
+public class Items
 {
     @SuppressWarnings("unused")
 	private static Player p;
