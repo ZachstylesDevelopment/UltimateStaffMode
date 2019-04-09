@@ -3,7 +3,7 @@ package me.refrac.staff.util;
 import java.net.*;
 import java.io.*;
 
-import me.zachstyles.staff.Main; 
+import me.refrac.staff.Main; 
 
 public class UpdateChecker
 {
