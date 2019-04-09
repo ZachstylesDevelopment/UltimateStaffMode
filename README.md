@@ -63,14 +63,14 @@ Inside The Main Gui!
 #=================================================
 #Plugin Version: 1.0(Don't Change This Version!)
 #======================================================
-#Plugin Made By: Zachstyles
+#Plugin Made By: Refrac
 #Original Author: BGHDDevelopment and their discord below
 #Discord: https://discordapp.com/invite/QbbXPNG
 #======================================================
-#Plugin Page: https://www.spigotmc.org/resources/ultimatestaffmode.54528/
+#Plugin Page: https://www.spigotmc.org/resources/.54528/
 #======================================================
 #Found bugs? Need help? Join the discord!
-#https://discord.gg/76A8Wzu
+#https://discord.gg/zTeyAna
 #======================================================
 #Permssion: ustaffmode.update
 Update:
