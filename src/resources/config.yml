@@ -1,13 +1,13 @@
 #=======================================================
 #Config Version: 4.0(Please Don't change this version)
 #=======================================================
-#Plugin Author: Refrac 
+#Plugin Author: Refrac
 #=======================================================
 #Original Author: BGHDDevelopment
 #=======================================================
 #Plugin Page: https://www.spigotmc.org/resources/54528/
 #=======================================================
-#Permssion: ustaffmode.update
+#Permission: ustaffmode.update
 Update:
   Enabled: true
 #Enables if there is a message on-join when the plugin is outdated.
