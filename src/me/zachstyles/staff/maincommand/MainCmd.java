@@ -8,7 +8,7 @@ import org.bukkit.event.Listener;
 
 import me.refrac.staff.Main;
 import me.refrac.staff.inv.InvCreator;
-import me.refrac.staff.items.items;
+import me.refrac.staff.inv.Items;
 import me.refrac.staff.util.UpdateChecker;
 
 public class MainCmd implements CommandExecutor, Listener {
@@ -89,18 +89,18 @@ public class MainCmd implements CommandExecutor, Listener {
 			}
 				if(args.length == 1){
             		if(args[0].equalsIgnoreCase("open")){	
-				InvCreator.StaffGui.setItem(9, items.Blaze(p));
-				InvCreator.StaffGui.setItem(11, items.TOOLS(p));
-				InvCreator.StaffGui.setItem(13, items.Barrier(p));
-				InvCreator.StaffGui.setItem(17, items.EFFECTS(p));
-				InvCreator.StaffGui.setItem(15, items.MobMenu(p));
-				InvCreator.StaffGui.setItem(28, items.ServerManager(p));
-				InvCreator.StaffGui.setItem(30, items.AdminItemMenu(p));
-				InvCreator.StaffGui.setItem(32, items.DifficultyMenu(p));
-				InvCreator.StaffGui.setItem(34, items.TrollMenu(p));
+				InvCreator.StaffGui.setItem(9, Items.Blaze(p));
+				InvCreator.StaffGui.setItem(11, Items.TOOLS(p));
+				InvCreator.StaffGui.setItem(13, Items.Barrier(p));
+				InvCreator.StaffGui.setItem(17, Items.EFFECTS(p));
+				InvCreator.StaffGui.setItem(15, Items.MobMenu(p));
+				InvCreator.StaffGui.setItem(28, Items.ServerManager(p));
+				InvCreator.StaffGui.setItem(30, Items.AdminItemMenu(p));
+				InvCreator.StaffGui.setItem(32, Items.DifficultyMenu(p));
+				InvCreator.StaffGui.setItem(34, Items.TrollMenu(p));
 				for (int i = 0; i < 54; ++i) {
 					if (InvCreator.StaffGui.getItem(i) == null) {
-						InvCreator.StaffGui.setItem(i, items.Glass(p));
+						InvCreator.StaffGui.setItem(i, Items.Glass(p));
 					}
 				}
             
