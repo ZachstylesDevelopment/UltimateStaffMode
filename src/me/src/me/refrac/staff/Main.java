@@ -4,7 +4,10 @@ import me.refrac.staff.maincommand.MainCmd;
 import me.refrac.staff.menu.Event;
 import me.refrac.staff.util.*;
 import org.bukkit.Bukkit;
+import org.bukkit.command.CommandExecutor;
 import org.bukkit.enchantments.Enchantment;
+import org.bukkit.event.Listener;
+import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -39,8 +42,18 @@ public class Main extends JavaPlugin {
 		return (Main) getPlugin((Class) Main.class);
 	}
 
-	private void register() {
-		this.getCommand("staffmode").setExecutor(new MainCmd());
-		this.getServer().getPluginManager().registerEvents(new Event(), this);}
+	public static Plugin getPlugin2() {
+		return Main.plugin;
+	}
 
-    static {}}
+	public void register() {
+		this.getCommand("staffmode").setExecutor((CommandExecutor) new MainCmd());
+		this.getServer().getPluginManager().registerEvents((Listener) new Event(), (Plugin) this);
+	}
+
+	public static void registerEvents(final Plugin plugin, final Listener... listeners) {
+		for (final Listener listener : listeners) {
+			Bukkit.getServer().getPluginManager().registerEvents(listener, plugin);
+		}
+	}
+}
