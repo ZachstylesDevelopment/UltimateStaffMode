@@ -1,6 +1,6 @@
 main: me.refrac.staff.Main
 name: UltimateStaffMode
-version: 4.0
+version: 4.2
 depend: [ProtocolLib]
 softdepend: [DeluxeMenus]
 load: STARTUP
