@@ -1,2 +1,2 @@
 # UltimateStaffMode
-UltimateStaffMode StaffGUI
+Discord Support: https://discord.gg/zTeyAna
