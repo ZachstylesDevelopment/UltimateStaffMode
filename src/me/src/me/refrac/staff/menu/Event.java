@@ -361,7 +361,7 @@ public class Event implements Listener
             p.sendMessage(prefix + DoubleArrow + GamemodeMenu);
         }
         if (e.getCurrentItem().equals((Object)Items.Barrier(p))) {
-        	if(!p.hasPermission("ustaffmode.gamemode")) return;
+        	if(!p.hasPermission("ustaffmode.time")) return;
         	p.openInventory(InvCreator.timeset);
             p.sendMessage(prefix + DoubleArrow + TimeMenu);
         }   
