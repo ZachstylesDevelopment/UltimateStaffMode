@@ -1,7 +1,7 @@
 package me.refrac.staff.inv;
 
-import org.bukkit.*;
-import org.bukkit.inventory.*;
+import org.bukkit.Bukkit;
+import org.bukkit.inventory.Inventory;
 
 import me.refrac.staff.Main;
 
@@ -29,10 +29,7 @@ public class InvCreator
     public static Inventory feedandhealmenu;
     public static Inventory vanishmenu;
     public static Main plugin;
-    String DownloaderType;
-    String GsonEntry;
-    String SpigotHost;
-    
+
     static {
         InvCreator.StaffGui = Bukkit.createInventory(null, 54, InvNames.invname);
         InvCreator.secInv = Bukkit.createInventory(null, 9, InvNames.secInv);
