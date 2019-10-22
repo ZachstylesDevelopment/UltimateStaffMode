@@ -1,9 +1,12 @@
 #=======================================================
-#Config Version: 4.2(Please Don't change this version)
+configVersion: 5.1
+#PLEASE DO NOT CHANGE THIS!
 #=======================================================
 #Plugin Author: Refrac
+#https://discord.io/RefracDev
 #=======================================================
-#Original Author: BGHDDevelopment
+#Original Author: BGHDDevelopment(Noodles))
+#https://bghddevelopment.com/discord
 #=======================================================
 #Plugin Page: https://www.spigotmc.org/resources/54528/
 #=======================================================
@@ -11,22 +14,22 @@
 Update:
   Enabled: true
 #Enables if there is a message on-join when the plugin is outdated.
-#=======================================================  
-Messages: 
+#=======================================================
+Messages:
   Prefix: '&6&lULTIMATESTAFFMODE'
   MainMenu: '&7Returned To The Main Menu!'
-#=======================================================
-#Gamemode Menu Messages  
-#Permission: ustaffmode.gamemode
+  #=======================================================
+  #Gamemode Menu Messages
+  #Permission: ustaffmode.gamemode
   GamemodeMenu: '&7Opened The Gamemodes Menu!'
-  Creative: '&7Gamemode changed to Creative!' 
-  Survival: '&7Gamemode changed to Survival!' 
+  Creative: '&7Gamemode changed to Creative!'
+  Survival: '&7Gamemode changed to Survival!'
   Spectator: '&7Gamemode changed to Spectator!'
   Adventure: '&7Gamemode changed to Adventure!'
-#=======================================================
-#Time Menu Messages    
-#Permission: ustaffmode.time
-  TimeMenu: '&7Opened The Time Menu!'  
+  #=======================================================
+  #Time Menu Messages
+  #Permission: ustaffmode.time
+  TimeMenu: '&7Opened The Time Menu!'
   TimeSixAM: '&7Time Changed To &e6AM&7!'
   TimeSevenAM: '&7Time Changed To &e7AM&7!'
   TimeEightAM: '&7Time Changed To &e8AM&7!'
@@ -51,44 +54,44 @@ Messages:
   TimeThreeAM: '&7Time Changed To &e3AM&7!'
   TimeFourAM: '&7Time Changed To &e4AM&7!'
   TimeFiveAM: '&7Time Changed To &e5AM&7!'
-#=======================================================
-#Tools Menu Messages 
-#Permission: ustaffmode.tools
-  ToolsMenu: '&7Opened The Tools Menu!'  
-#FlyMenu
-  FlyMenu: '&7Opened The Fly Menu!'      
+  #=======================================================
+  #Tools Menu Messages
+  #Permission: ustaffmode.tools
+  ToolsMenu: '&7Opened The Tools Menu!'
+  #FlyMenu
+  FlyMenu: '&7Opened The Fly Menu!'
   FlyON: '&7Toggled Fly &aON&7!'
   FlyOFF: '&7Toggled Fly &cOFF&7!'
-#VanishMenu
-  VanishMenu: '&7Opened The Vanish Menu!' 
+  #VanishMenu
+  VanishMenu: '&7Opened The Vanish Menu!'
   VanishON: '&7Vanish & Fly &a&lEnabled!'
   VanishOFF: '&7Vanish & Fly &c&lDisabled!'
-#HealAndFeedMenu
-  FeedAndHealMenu: '&7Opened The Feed + Heal Menu!' 
+  #HealAndFeedMenu
+  FeedAndHealMenu: '&7Opened The Feed + Heal Menu!'
   Heal: '&7You got healed!'
   Feed: '&7Yum!! That was some good food!'
-#Other Tools
-  ClearChat: '&7Chat Cleared!' 
+  #Other Tools
+  ClearChat: '&7Chat Cleared!'
   ClearInv: '&7Inventory Cleared!'
-#=======================================================
-#AdminItems Menu Messages  
-#Permission: ustaffmode.adminitems 
+  #=======================================================
+  #AdminItems Menu Messages
+  #Permission: ustaffmode.adminitems
   AdminItemMenu: '&7Opened The Admin Items Menu!'
   AdminSword: '&7You received a &c&lADMIN &7sword!'
   AdminBow: '&7You received a &c&lADMIN &7bow!'
   AdminStick: '&7You received a &c&lADMIN &7stick!'
-#=======================================================
-#Server Manager Menu Messages  
-#Permission: ustaffmode.servermanager
+  #=======================================================
+  #Server Manager Menu Messages
+  #Permission: ustaffmode.servermanager
   ServerManagerMenu: '&7Opened The Server Manager Menu!'
   WeatherRain: '&7Weather Turned To Rain!'
   WeatherClear: '&7Weather Turned To Clear!'
   WhitelistON: '&7Whitelist Turned &eON&7!'
-  WhitelistOFF: '&7Whitelist Turned &cOFF&7!'  
-#=======================================================
-#Effects Menu Messages    
-#Permission: ustaffmode.effects
-  EffectsMenu: '&7Opened The Effect Menu!'   
+  WhitelistOFF: '&7Whitelist Turned &cOFF&7!'
+  #=======================================================
+  #Effects Menu Messages
+  #Permission: ustaffmode.effects
+  EffectsMenu: '&7Opened The Effect Menu!'
   EffectsClear: '&7Effects Cleared!'
   SpeedMenu: '&7Opened Speed Effect Menu!'
   JumpMenu: '&7Opened Jump Effect Menu!'
@@ -121,12 +124,12 @@ Messages:
   WatherBreathing: '&7Water Breathing Applied For &cFOREVER!'
   NightVision: '&7Night Vision Applied For &cFOREVER!'
   Slowness: '&7Slowness Applied For &cFOREVER!'
-#=======================================================
-#Mob Menu Messages    
-#Permission: ustaffmode.mobs 
+  #=======================================================
+  #Mob Menu Messages
+  #Permission: ustaffmode.mobs
   MobMenu: '&7Opened The Mob Menu!'
   ExtraMobMenu: '&7Opened Extra Mob Menu!'
-  SpawnCreeper: '&7Spawned Creeper!'  
+  SpawnCreeper: '&7Spawned Creeper!'
   SpawnSkeleton: '&7Spawned Skeleton!'
   SpawnSpider: '&7Spawned Spider!'
   SpawnZombie: '&7Spawned Zombie!'
@@ -151,31 +154,31 @@ Messages:
   SpawnHorse: '&7Spawned Horse!'
   SpawnVillager: '&7Spawned Villager!'
   SpawnRabbit: '&7Spawned Rabbit!'
-#Other Mobs Menu
+  #Other Mobs Menu
   SpawnIronGolem: '&7Spawned IronGolem!'
   SpawnSnowGolem: '&7Spawned SnowGolem!'
   SpawnGuardian: '&7Spawned Guardian!'
   SpawnGiant: '&cSpawned Giant!'
   SpawnWither: '&cSpawned Wither!'
   SpawnEnderDragon: '&cSpawned EnderDragon!'
-#=======================================================
-#Difficulty Menu Messages   
-#Permission: ustaffmode.difficulty
+  #=======================================================
+  #Difficulty Menu Messages
+  #Permission: ustaffmode.difficulty
   DifficultyMenu: '&7Opened The Difficulty Menu!'
   DifficultyPeace: '&7Difficulty set to Peaceful!'
   DifficultyEasy: '&7Difficulty set to Easy!'
   DifficultyNormal: '&7Difficulty set to Normal!'
   DifficultyHard: '&7Difficulty set to Hard!'
-#=======================================================
-#Troll Menu Messages 
-#Permission: ustaffmode.trolls
+  #=======================================================
+  #Troll Menu Messages
+  #Permission: ustaffmode.trolls
   TrollMenu: '&7Opened The Troll Menu!'
   CowTroll: '&7Spawned cow on all players!'
   CowTrollPlayer: '&cYou were hit with a flying cow!'
   LightningTroll: '&7Spawned lightning strike on all players!'
-  LightningTrollPlayer: '&cYou were hit with a lightning strike!' 
+  LightningTrollPlayer: '&cYou were hit with a lightning strike!'
   BlindnessTroll: '&7Gave all players blindness for &c&l&oFOREVER!'
-  BlindnessTrollPlayer: '&cYou were given blindness &c&l&oFOREVER!' 
+  BlindnessTrollPlayer: '&cYou were given blindness &c&l&oFOREVER!'
   SlownessTroll: '&7Gave all players slowness &c&l&oFOREVER!'
   SlownessTrollPlayer: '&cYou were given slowness &c&l&oFOREVER!'
   NauseaTroll: '&7Gave all players nausea &c&l&oFOREVER!'
@@ -184,9 +187,9 @@ Messages:
   JumpTrollPlayer: '&cYou were given jump boost &c&l&oFOREVER!'
   WeaknessTroll: '&7Gave all players weakness &c&l&oFOREVER!'
   WeaknessTrollPlayer: '&cYou were given weakness boost &c&l&oFOREVER!'
-#======================================================= 
-#Mob Manager Menu Messages
-#Permission: ustaffmode.mobmanager
+  #=======================================================
+  #Mob Manager Menu Messages
+  #Permission: ustaffmode.mobmanager
   MobManagerMenu: '&7Opened The Mob Manager Menu!'
   MobClear: '&7Cleared all mobs!'
-#=======================================================      
+#=======================================================
