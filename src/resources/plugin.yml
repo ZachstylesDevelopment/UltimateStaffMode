@@ -1,13 +1,12 @@
-main: me.refrac.staff.Main
 name: UltimateStaffMode
-version: 4.2
-depend: [ProtocolLib]
-softdepend: [DeluxeMenus]
-load: STARTUP
+# Change to 5.1 if not using Maven
+version: ${project.version}
+main: me.refrac.staff.Main
+api-version: 1.13
 authors: [Refrac, BGHDDevelopment(Noodles)]
-Website: https://www.spigotmc.org/resources/54528/
-
-commands: 
-   staffmode:
-      description: UltimateStaffMode
-      aliases: [sg, staffgui]
+# Change to UltimateStaffMode StaffGUI Utilities if not using Maven
+description: ${project.description}
+commands:
+  staffmode:
+    description: Main Command
+    aliases: [sg, staffgui, sm]
