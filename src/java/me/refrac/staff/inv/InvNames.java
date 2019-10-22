@@ -26,7 +26,7 @@ public class InvNames
     public static String troll;
     public static String vanishmenu;
     public static String feedandhealmenu;
-    
+
     static {
         InvNames.invname = String.valueOf(ChatColor.AQUA) + ChatColor.BOLD + ChatColor.UNDERLINE + "ULTIMATESTAFFMODE-GUI";
         InvNames.secInv = String.valueOf(ChatColor.GOLD) + ChatColor.BOLD + "Gamemodes Menu";
