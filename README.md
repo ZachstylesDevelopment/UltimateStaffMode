@@ -1,2 +1,3 @@
 # UltimateStaffMode
 
+Discontinued.
